@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+}
+                     
+body {
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: "Hind", sans-serif;
+    margin: 0;
+    background: rgb(250, 246, 241);
+    min-height: 100%;
+}
+
+.resumeContainer {
+    flex-direction: row;
+    height: auto;
+    /*justify-content: center;
+    align-items: center;*/
+}
+
+.panel {
+    flex-direction: column;
+    text-align: center;
+    background-color: #EFDECD;
+    width: auto;
+    padding-bottom: .8rem;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    padding-top: 2rem;
+}
+
+.name p1 {
+    display: block;
+    padding-top: 1rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.contact h2 {
+    display: block;
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin: 0 auto;
+}
+
+.info-links {
+    display: inline-block;
+    font-size: 1.1rem;
+    padding-top: 1.5rem;
+    margin-top: 1rem;
+    width: 100%;
+    line-height: 150%;
+}
+
+.info-links a {
+    color: black;
+}
+
+.elevator {
+    display: flex;
+    font-size: 1rem;
+    margin: 1.5rem  auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    /*border: 3px solid #EFDECD;*/
+    border: 3px solid black;
+    width: 85%;
+    padding: 10px;
+    justify-self: left;
+}
+
+h5 {
+    padding-left: 41px;
+}
+
+ol {
+/*padding-left: 20px;*/
+    margin-top: .5rem;
+}
+
+
+table {
+    width: 80%;
+    /*justify-content: center;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+td, th {
+    border: 2px solid #dddddd;
+    /*text-align: left;*/
+}
+    
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.button-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.funline {
+    display: flex;
+    font-size: 1rem;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-family: "Courgette", cursive;
+    width: 85%;
+}
+
+.
+.techskills {
+    float: right;
+    width: 50%;
+    justify-content: flex-start;
+    background-color: yellow;
+}
+
+/*   MEDIA QUERIES  */
+
+@media (min-width: 577px) and (max-width: 991.98px) {
+
+.resumeContainer {
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    padding-left: .5rem;
+}
+
+.panel {
+    float: left;
+    text-align: center;
+    background-color: red;
+    width: 49%;
+    padding-bottom: .8rem;
+}
+
+rightpanel {
+    float: right;
+    background-color: green;
+}
+/*.elevator {
+    flex-direction: row;
+    font-size: 1rem;
+    margin: .3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    border: 3px solid #EFDECD;
+    padding-left: .2rem;
+}*/
+
+.education {
+    visibility: hidden;
+}
+
+}
+}
+}
